@@ -1,0 +1,25 @@
+body {
+  font-size: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: <img(url(images/logo.png)
+}
+
+header {
+  background-image: url(url(images/logo.png))
+      1
+    ).zip.24d\CSSAdvanced\Object.png);
+  background-size: :fullscreen;
+  background-position: center;
+  text-align: center;
+  color: white;
+  padding: 100px 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
