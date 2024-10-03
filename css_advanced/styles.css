@@ -9,7 +9,7 @@ body {
 .Diagonal {
   /* image-rendering: url(./images/imo.png); */
   image-rendering: size 35.02px 171.59px;
-  width: 1103.4px;
+  width: 1000px;
   height: 29.46px;
   image-rendering: postion center;
 }
@@ -249,7 +249,7 @@ span {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  width: 1440px;
+  /* width: 1440px; */
   height: 502px;
 }
 .freeMembershipTitle {
@@ -281,6 +281,120 @@ span {
   border-radius: 100px;
   background-color: #c271ff;
   color: white;
+}
+
+.popularTutorials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 100px;
+}
+
+.mostPopularTitle {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 32px;
+}
+
+.mostPopularTitle span {
+  margin: 0;
+  padding: 0;
+  display: inline;
+  width: fit-content;
+}
+
+.popular {
+  color: #c271ff;
+}
+.coverImg1,
+.coverImg2,
+.coverImg3,
+.coverImg4 {
+  width: 255px;
+  height: 154px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.coverImg1 {
+  background-image: url("./images/9.png");
+}
+
+.coverImg2 {
+  background-image: url("./images/7.png");
+}
+
+.coverImg3 {
+  background-image: url("./images/8.png");
+}
+
+.coverImg4 {
+  background-image: url("./images/6.png");
+}
+
+.songTitle {
+  font-weight: 700;
+  font-size: 16px;
+  color: #071629;
+  margin: 0;
+}
+
+.songDescription {
+  font-weight: 400;
+  color: #07162980;
+  font-size: 14px;
+  margin: 0;
+  line-height: 27px;
+}
+
+.author {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.authorName,
+.duration {
+  color: #c271ff;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.tutorialTitle {
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.tutorialBody {
+  padding: 0 100px;
+  display: flex;
+  gap: 30px;
+}
+
+.song {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.authorImage {
+  width: 30px;
+  height: 30px;
+}
+
+.authorNameAndImage {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.rating {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .sectionWork {
