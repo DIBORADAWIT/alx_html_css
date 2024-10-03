@@ -446,7 +446,9 @@ span {
   background-color: #071629;
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .footerDiv {
@@ -458,4 +460,11 @@ span {
 }
 .footerIcons {
   color: white;
+}
+
+.copyright {
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 30px;
 }
