@@ -200,9 +200,28 @@ span {
 }
 .second {
   background-color: #c271ff;
+  display: flex;
+  gap: 10px;
   justify-content: center;
-  width: 100vw;
+  align-items: center;
   height: 50vh;
+  color: white;
+}
+
+.second-picture {
+  width: 160px;
+  height: 160px;
+}
+
+.second blockquote {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.second blockquote h3,
+.second blockquote p {
+  margin: 0;
 }
 .block {
   justify-content: center;
