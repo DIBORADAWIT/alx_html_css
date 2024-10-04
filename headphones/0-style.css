@@ -3,6 +3,8 @@
   padding: 0;
 }
 
+/* Hero section */
+
 .head1 {
   background-image: url("./images/headphones_hero_1.jpg");
   width: 100vw;
@@ -155,7 +157,10 @@
   background-repeat: no-repeat;
 }
 
+/* What we do section */
+
 @media screen and (min-width: 768px) {
+  /* Hero section */
   .head1 {
     display: flex;
     flex-direction: column;
@@ -297,4 +302,6 @@
     background-position: center;
     background-repeat: no-repeat;
   }
+
+  /* What we do section */
 }
