@@ -179,7 +179,9 @@
   }
 
   .menuhero {
-    width: unset;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .menuImg {
@@ -206,6 +208,13 @@
     font-weight: 700;
     color: #ffffff;
     list-style-type: none;
+  }
+
+  #menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
   }
 
   .lilist li:hover {
