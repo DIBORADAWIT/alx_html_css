@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 /* Hero section */
 
 .head1 {
@@ -150,7 +154,7 @@
 }
 
 .second {
-  background-image: url (url(images/headphones_hero_2.jpg));
+  background-image: url("./images/headphones_hero_2.jpg");
   width: 100vw;
   height: 100vh;
   background-position: center;
