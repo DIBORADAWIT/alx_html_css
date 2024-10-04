@@ -11,13 +11,39 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+.lilist {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  width: 100%;
+  list-style-type: none;
+  padding-top: 30px;
+  color: #ffffff;
+}
 
+.lilist li:hover {
+  color: #ff6565;
+  cursor: pointer;
+}
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  flex-wrap: wrap;
+  /* background-color: #ff6565; */
 }
+
+.menuhero {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding: 10x;
+}
+
 .menuImg {
   width: 20px;
   height: 14px;
@@ -84,6 +110,10 @@
   border: none;
 }
 
+.button:hover {
+  background-color: rgb(216, 74, 74);
+}
+
 .paragraph {
   color: #ffffff;
   width: 335px;
@@ -123,6 +153,11 @@
     align-items: center;
     margin-top: 20px;
   }
+
+  .menuhero {
+    width: unset;
+  }
+
   .menuImg {
     display: none;
   }
@@ -136,11 +171,18 @@
 
   .lilist {
     display: flex;
+    flex-direction: row;
     gap: 50px;
+    width: unset;
     font-size: 12px;
     font-weight: 700;
     color: #ffffff;
     list-style-type: none;
+  }
+
+  .lilist li:hover {
+    color: #ff6565;
+    cursor: pointer;
   }
 
   .maindiscribsion {
@@ -196,6 +238,10 @@
     color: #ffffff;
     text-transform: uppercase;
     border: none;
+  }
+  .button:hover {
+    background-color: rgb(216, 74, 74);
+    cursor: pointer;
   }
 
   .paragraph {
