@@ -12,7 +12,12 @@
         <div class="head1">
           <nav class="nav">
             <div class="menuhero">
-              <img class="menuImg" src="./images/menu.png" alt="menu.png" />
+              <input type="checkbox" id="menu-toggle" />
+
+              <!-- Label acting as the toggle button (hamburger icon) -->
+              <label for="menu-toggle" class="menu-icon">
+                <img class="menuImg" src="./images/menu.png" alt="menu.png" />
+              </label>
               <div class="hero-logo-div">
                 <img
                   class="logo"
@@ -20,13 +25,12 @@
                   alt="logo_headphones.png"
                 />
               </div>
+              <ul id="menu" class="lilist">
+                <li>What we do</li>
+                <li>Our resuly</li>
+                <li>contact us</li>
+              </ul>
             </div>
-
-            <ul class="lilist">
-              <li>What we do</li>
-              <li>Our resuly</li>
-              <li>contact us</li>
-            </ul>
           </nav>
 
           <div class="maindiscribsion">
